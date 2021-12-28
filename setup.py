@@ -2,6 +2,12 @@ import subprocess
 import gdown
 import os
 
+# フォルダ作成
+os.makedirs("input")
+os.makedirs("output")
+os.makedirs("pretrained_models")
+os.makedirs("style_imgs")
+
 # ninjaインストール
 subprocess.run(["wget", "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip"])
 subprocess.run(["sudo", "unzip", "ninja-linux.zip", "-d", "/usr/local/bin/"])
@@ -15,9 +21,3 @@ gdown.download('https://drive.google.com/uc?id=1qshfqj8SdmgQv_kfLpiohbI3QPQF-OE5
 # ランドマークデータのダウンロード
 subprocess.run(["wget", "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2"])
 subprocess.run(["bzip2", "-dk", "shape_predictor_68_face_landmarks.dat.bz2"])
-
-# フォルダ作成
-os.makedirs("input")
-os.makedirs("output")
-os.makedirs("pretrained_models")
-os.makedirs("styleimg")

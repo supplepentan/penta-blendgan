@@ -12,3 +12,4 @@ shape_predictor_68_face_landmarks.dat.bz2
 input/
 output/
 style_imgs/
+landmark.py
