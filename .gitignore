@@ -1,0 +1,14 @@
+__pycache__/
+venv-wsl/
+results/
+align/
+test_imgs/
+pretrained_models/
+ninja-linux.zip
+ninja-linux.zip.1
+refer.txt
+shape_predictor_68_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat.bz2
+input/
+output/
+style_imgs/

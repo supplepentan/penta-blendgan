@@ -1,0 +1,7 @@
+future==0.18.2
+numpy==1.21.5
+opencv-python==4.5.4.60
+Pillow==8.4.0
+gdown==4.2.0
+dlib==19.22.1
+scipy==1.7.3
