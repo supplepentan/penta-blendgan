@@ -14,8 +14,6 @@ python setup.py
 python run.py
 
 ```
-# style_imgs
-https://drive.google.com/u/0/uc?id=1uOYaBR_LUN4zml9QUmdc5wECjGnSw_-s&export=download
 
 # Original
 https://onion-liu.github.io/BlendGAN/
