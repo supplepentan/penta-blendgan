@@ -15,5 +15,11 @@ python run.py
 
 ```
 
+# Docker
+```
+docker build -t penta-blendgan .
+docker run --name penta-blendgan -it --gpus all -t penta-blendgan:latest
+```
+
 # Original
 https://onion-liu.github.io/BlendGAN/
